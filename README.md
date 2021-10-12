@@ -76,6 +76,16 @@ python -m spacy download en_core_web_sm
 python -m spacy download de_core_news_sm
 ```
 
+5. Run the Server:
+```
+python server_testing.py
+or
+server_production.py
+```
+
+# Tools
+In the folder "NLP" you will find various scripts that can be used to generated, test and analyse models
+
 # Issues with libaries
 Some Libaries had some issues, if you want to build your own models, you will most likeley need to do similar tweaks.
 
