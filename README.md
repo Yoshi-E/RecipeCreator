@@ -84,7 +84,12 @@ server_production.py
 ```
 
 # Tools
-In the folder "NLP" you will find various scripts that can be used to generated, test and analyse models
+In the folder "NLP" you will find various scripts that can be used to generated, test and analyse models.
+
+The most relevant project files & scripts can be found here:
+- <a href="https://github.com/Yoshi-E/RecipeCreator/tree/master/RecipeWebAppFrontend/src/app">Frontend</a>
+- <a href="https://github.com/Yoshi-E/RecipeCreator/tree/master/NLP">NLP</a>
+- <a href="https://github.com/Yoshi-E/RecipeCreator/tree/master/Webserver/static/py">Backend</a>
 
 # Issues with libaries
 Some Libaries had some issues, if you want to build your own models, you will most likeley need to do similar tweaks.
