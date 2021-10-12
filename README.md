@@ -16,6 +16,16 @@ However finding, managing and creating recipes is often a difficult and tedious 
 
 This project aims to explore technical methods, namly natural language processing, to process and aid in the creation and classification of cooking recipes.
 
+# Live Demo (Fully Available until 30.10.2021, limited afterwards)
+
+<h1><a href="https://recipe.bergter.com/">DEMO</a></h1>
+<h1><a href="https://recipe.bergter.com/api/doc">Swagger Docs</a></h1>
+<a href="https://eric.bergter.com/files/RecipeCreator.zip">Download Project with model files & Database (300mb, 3GB uncompressed)</a> Licenced Files (BLS, or the Recipies are not included)
+
+
+
+------------------------------------------------------------------------------------------
+
 # Technology used
 - Frontend: Angular (CLI) / Typescript / JS
 - Backend: Python 3.6
@@ -31,15 +41,20 @@ This project aims to explore technical methods, namly natural language processin
     - detection and calculation of item quanity
     - parsing of brackets and parentheses
     - utilizes Stemming, Lemmatizer, Tokenizer
-- Ingredient processing
+- Ingredient processing:
     - Identification
     - Finding best match
     - Match confidence
+- User interface:
+    - Basic functionality
+    - Works in real time
+    - REST API
     
 
 
 # Requirements
 - Python3 (Tested on 3.6 and 3.9)
+- Linux / Win / OSX (Tested on Win10)
 
 # Install
 1. The Git Repo lacks the Database login and Models. The Full project can be downloaded here.
@@ -64,5 +79,5 @@ Some Libaries had some issues, if you want to build your own models, you will mo
 
 - For the LDA visualization you need to apply to following fix to the pyLDAvis package:
   
-    In the file: pyLDAvis\_display.py:
+    In the file: pyLDAvis/_display.py:
     - replacing open() for urls with urllib.request (or manually paste the css code)
