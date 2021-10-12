@@ -57,7 +57,7 @@ This project aims to explore technical methods, namly natural language processin
 - Linux / Win / OSX (Tested on Win10)
 
 # Install
-1. The Git Repo lacks the Database login and Models. The Full project can be downloaded here.
+1. The Git Repo lacks the Database login and Models. The Full project can be downloaded above.
 Alternativly just clone the repo.
 
 2. Setup a virtual environment for python
