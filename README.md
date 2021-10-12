@@ -64,7 +64,9 @@ Alternativly just clone the repo.
 ```
 python -m venv .venv
 ```
-3. Install the python modules and requirements
+4. Activate the virtal environment
+
+5. Install the python modules and requirements
 
 ```
 python -m pip install -r requirements.txt
