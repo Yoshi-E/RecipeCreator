@@ -16,7 +16,7 @@ However finding, managing and creating recipes is often a difficult and tedious 
 
 This project aims to explore technical methods, namly natural language processing, to process and aid in the creation and classification of cooking recipes.
 
-# Live Demo (Fully Available until 30.10.2021, limited afterwards)
+# Live Demo (Fully Available until 30.11.2021, limited afterwards)
 
 <h1><a href="https://recipe.bergter.com/">DEMO</a></h1>
 <h1><a href="https://recipe.bergter.com/api/doc">Swagger Docs</a></h1>
