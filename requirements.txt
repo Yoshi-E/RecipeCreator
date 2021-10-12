@@ -1,0 +1,16 @@
+# requirements.txt
+Flask==2.0.1
+flask_httpauth==4.4.0
+flask-restx==0.5.1
+requests==2.26.0
+Flask-SQLAlchemy==2.5.1
+pyjwt==2.1.0
+waitress==2.0.0
+pytest==6.2.5
+pyldavis
+gensim
+nltk
+numpy
+spacy
+flask-mysqldb
+HanTa

@@ -1,0 +1,8 @@
+<div class="box m-3 p-1 is-flex is-clickable" routerLink='/test' [queryParams]="{id: searchResult.dc_id}">
+    <figure class="image is-64x64 is-relative fixed">
+        <img src="{{ tiny_image }}" #imgSrc>
+    </figure>
+    <div class="notification is-relative has-background-white">
+        {{ searchResult.title }}
+    </div>
+</div>

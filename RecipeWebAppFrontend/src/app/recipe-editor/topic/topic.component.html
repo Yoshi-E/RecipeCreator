@@ -1,0 +1,21 @@
+<div *ngFor="let topic of topics;">
+    Probability: {{ topic[1] }}
+    <table class="table">
+        <tr>
+            <td *ngFor="let word of topic[2]">{{ word[0] }}</td>
+        </tr>
+        <tr>
+            <td *ngFor="let word of topic[2]">{{ word[1] | number:'0.0-2' }}</td>
+        </tr>
+    </table>
+</div>
+
+<div *ngFor="let recipe of recipeSuggestions;">
+    <a class="box m-3 p-1 is-flex is-clickable" href='/test?id={{ recipe[0] }}'>
+        {{ recipe[1] }}
+    </a>
+</div>
+
+
+
+

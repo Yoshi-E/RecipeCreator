@@ -1,0 +1,78 @@
+
+.tile {
+  display: inline;
+}
+
+.editor-textbox {
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  margin: 10px;
+  font-size: 14px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+}
+
+.statement {
+  color: orange;
+}
+
+
+
+/* Word highlights */
+.hashtag {
+  color: orange;
+}
+
+.url {
+  color: red;
+}
+.mention {
+  color: green;
+}
+
+.dict {
+  color: yellow;
+}
+
+
+.cTable {
+border-collapse: collapse; 
+border: 1px solid #ddd;
+width: 100%;
+font-size: 18px; 
+}
+
+.cTable th, .cTable td {
+text-align: left;
+padding: 12px;
+}
+
+.cTable tr {
+border-bottom: 1px solid #ddd;
+}
+
+.cTable tr.header, .cTable tr:hover {
+background-color: #f1f1f1;
+}
+
+
+#overlay_container {
+margin: 0;
+padding: 0;
+left: 0;
+top: 0;
+
+z-index: 1;
+position: absolute;
+width: 100%;
+height: 100%;
+background: gray;
+}
+
+textarea {
+  min-height: 15rem;
+}

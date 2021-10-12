@@ -1,0 +1,25 @@
+<div class="statusBar has-background-info-dark has-text-black">
+<button class="button">Save</button>
+<button class="button">Undo</button>
+<button class="button">Redo</button>
+Object-State: Unsaved - {{ recipeLoad.dcid }}
+</div>
+
+<section class="container">
+	<section class="section">
+		<input type="text" class="title" placeholder="Titel" value="{{ recipeLoad.title }}"><p class="help is-danger">*Erforderlich</p>
+		<h2 class="subtitle">{{ recipeLoad.meta }}</h2>
+	<app-ingredient-editor
+	[recipeLoad]="recipeLoad"
+	>
+	</app-ingredient-editor>
+	
+	</section>
+
+	<section class="container">
+		<h2 class="subtitle">Detetected Topics & Recipes with similar topics<br>
+			(Takes recipe ID into account, and not the typed editor text)</h2>
+		<app-topic [recipeId] = "recipeId"  [recipeLoad] = "recipeLoad"
+		></app-topic>
+	</section>
+</section>

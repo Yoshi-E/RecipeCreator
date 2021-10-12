@@ -1,0 +1,3 @@
+[submodule "RecipeWebAppFrontend"]
+	path = RecipeWebAppFrontend
+	url = https://github.com/Yoshi-E/RecipeWebAppFrontend.git

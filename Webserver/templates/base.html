@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - DevEnv</title>
+      {% else %}
+      <title>Welcome to the DevEnv Demo</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>DevEnv: <a href="/">Home</a> <a href="/search">Search</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>

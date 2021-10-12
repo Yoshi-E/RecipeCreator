@@ -1,0 +1,30 @@
+
+<div class="tile is-ancestor">
+	<div class="tile editor">
+		<div class="editorBoxTitle">Zubereitung</div>
+		<textarea rows="17" class="textarea" placeholder="Zubereitung" #description>{{ recipeLoad.description }}</textarea>
+		<!-- <div class="editor-textbox" contenteditable="true" placeholder="Zubereitung" #description>{{ recipeLoad.description }}</div>-->
+	</div>
+	<div class="tile editor">
+		<h2>Zutaten</h2>
+		<div class="control is-large" #editorStatus>
+			<textarea rows="17" class="textarea" placeholder="Zutaten" #editor>{{ recipeLoad.ingredients }}</textarea>
+		</div>
+		
+		<!--<div class="editor-textbox" contenteditable="true" placeholder="Zutaten" #editor>{{ recipeLoad.ingredients }}</div>-->
+	</div>
+	</div>
+
+<table class="cTable" id="searchTable" #searchTable>
+	<!-- Dynamicly Loaded (input)="editor_onInput($event.target.innerHTML)"  -->
+</table>
+<br>
+
+<label for="quantity">Portionen:</label><input type="number" id="portionen" name="quantity" min="1" value="1" #portionen>
+<table class="cTable" id="resultTable" #resultTable>
+	<!-- Dynamicly Loaded -->
+</table>
+
+<section>
+	<button class="button is-info" style="margin-top: 25px;" (click)="genIngredient()">Suggest Ingredient</button>
+</section>
